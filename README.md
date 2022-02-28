@@ -25,5 +25,5 @@ The temperature counts we have in our dataset for June are 1700, as opposed to 1
 
 ### Additional Queries that can be performed:
 We can perform additional queries to find more weather data for June and December. 
-First, we can run a query on ... 
-Second, we can run a query on ...
+First, we can run a query on precipitation rates in June and December, to gauge how much it rains (or snows) in Oahu. A rainy day does not make for an ideal day to go surfing, and so this analysis can prove quite useful! 
+Second, we can run a query on humidity, or wind speeds and directions, or even tidal wave levels, to gauge if the weather during June and December will be favorable for being out and about surfing and having ice cream!
