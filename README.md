@@ -21,7 +21,7 @@ The three key differences in the weather between June and December are as follow
 
 ## Summary
 ### High level summary of the results:
-
+The temperature counts we have in our dataset for June are 1700, as opposed to 1517 for December. The mean temperature in June is about 74.9 degrees (with a standard deviation of around 3.26), whereas it is 71 degrees in December (with a standard deviation of about 3.75). The minimum temperature in June is 64 degrees and the maximum is 85 degrees, i.e. the range of temperature in June (range = max - min) is 21 degrees. The minimum temperature in December is 56 degrees, whereas it is 83 degrees in December, i.e. the range of temperature in December (range = max - min) is 27 degrees. The median temperature in June is 75 degrees, and the interquartile range (3rd Quartile - 1st Quartile = 77 - 73) is 4 degrees. The median temperature in December is 71 degrees, and the interquartile range (3rd Quartile - 1st Quartile = 74 - 69) is 5 degrees. 
 
 ### Additional Queries that can be performed:
 We can perform additional queries to find more weather data for June and December. 
