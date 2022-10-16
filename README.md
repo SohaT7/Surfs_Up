@@ -24,7 +24,7 @@ The dataset for this project comprises of climate data on Oahu, Hawaii, and is c
  - Flask
 
 ### Description:
-Using Python and SQLAlchemy, the date column of the Measurements table is filtered for all the temperatures from the particular month.
+[SurfsUp_analysis](https://github.com/SohaT7/Surfs_Up/blob/main/SurfsUp_analysis.ipynb) uses Python and SQLAlchemy, to filter out the temperatures for a particular month from the Measurements table.
 
 ![query_june](https://github.com/SohaT7/Surfs_Up/blob/main/Images/query_june.png)
 ![query_dec](https://github.com/SohaT7/Surfs_Up/blob/main/Images/query_dec.png)
