@@ -1,29 +1,52 @@
 # An Analysis of Surfs Up
+## Table of Contents
+- [Overview of the Analysis](#overview-of-the-analysis)
+    - [Purpose](#purpose)
+    - [About the Dataset](#about-the-dataset)
+    - [Tools Used](#tools-used)
+    - [Description](#description)
+- [Results](#results)
+- [Summary](#summary)
+- [Contact Information](#contact-information)
 
 ## Overview of the Analysis
-### Description of the Project:
-This project [Surfs_Up_Challenge](https://github.com/SohaT7/Surfs_Up/blob/main/SurfsUp_Challenge.ipynb) retrieves and analyzes weather data, from the [hawaii.sqlite database](https://github.com/SohaT7/Surfs_Up/blob/main/hawaii.sqlite), for the months of June and December.
+### Purpose:
+The purpose of this project is to analyse the climate data (temperatures in June and December) in Oahu, Hawaii, in order to gauge if opening up a surf shop there will make for a viable investment or not. 
 
-### Purpose of the Analysis:
-The purpose of this statistical analysis on the weather data is to determine if the weather is suitable for starting a Surf 'n Shake shop, a shop selling ice cream and surf boards to the locals, tourists, and other visitors in Oahu, Hawaii. This information is needed for the investor(s) to decide whether they are willing to chip in their money into this project. If this venture is successful, it has the potential to be expanded to other cities in Hawaii too. 
+# About the Dataset:
+The dataset for this project comprises of climate data on Oahu, Hawaii, and is contained in the following SQLite database:
+ - [hawaii.sqlite](https://github.com/SohaT7/Surfs_Up/blob/main/Resources/hawaii.sqlite)
+
+### Tools Used:
+ - Python (Pandas, Numpy, Matplotlib)
+ - SQLite
+ - SQLAlchemy
+ - Flask
+
+### Description:
+Using Python and SQLAlchemy, the date column of the Measurements table is filtered for all the temperatures from the particular month.
+
+![query_june](https://github.com/SohaT7/Surfs_Up/blob/main/Images/query_june.png)
+![query_dec](https://github.com/SohaT7/Surfs_Up/blob/main/Images/query_dec.png)
+
+The temperatures are then converted to a list, the list converted into a DataFrame, and the summary statistics (minimum temperatures, maximum temperatures, average temperatures, and range of temperatures) then generated from the DataFrame. Matplotlib is used to plot out the temperatures for that month. 
 
 ## Results
-The summary statistics for the weather data from June and December is, respectively, shared below:
+The summary statistics and plots for temperatures from June and December can be seen below:
 
-![June](https://github.com/SohaT7/Surfs_Up/blob/main/Image_June_Temperatures.png)
+<img width="122" alt="image" src="https://github.com/SohaT7/Surfs_Up/blob/main/Images/df_june.png"> <img width="368" alt="image" src="https://github.com/SohaT7/Surfs_Up/blob/main/Images/plot_june.png">
 
-![December](https://github.com/SohaT7/Surfs_Up/blob/main/Image_December_Temperatures.png)
 
-The three key differences in the weather between June and December are as follows:
-- The minimum temperature in the month of June is 64 degrees, whereas the minimum temperature in the month of December is 8 degrees lower, at 56 degrees. The maximum temperature in June is 85 degrees, whereas in December it is only 2 degrees lower, at 83 degrees.
-- The median temperature in June is 75 degrees, whereas the median temperature in December is 71 degrees. 
-- The mean temperature in June is around 74.9 degrees, with a standard deviation of about 3.26. The mean temperature in December is about 71 degrees, with a standard deviation of about 3.7.
+<img width="116" alt="image" src="https://github.com/SohaT7/Surfs_Up/blob/main/Images/df_dec.png"> <img width="339" alt="image" src="https://github.com/SohaT7/Surfs_Up/blob/main/Images/plot_dec.png">
+
+The summary statistics and the plotted graphs for the two months show:
+ - The average tempertaure in December is 71 degrees Farenheit, which is 4 degrees lower than June's average temperature (75 degrees F).
+ - The plot for June temperatures shows that the frequency of temperatures in June have more of a bell-shaped, normally-distributed curve. This explains the smaller standard deviation of 3.26, as compared to December's 3.7.
+ - The weather in June and December can be inferred to be about the same. Decmeber has a higher variance (XXXx) but the two months' temperatures have about the same range (June's 21 degrees and December's 27) and average temperature (June's 74.9 F and December's 71 F).
 
 ## Summary
-### High level summary of the results:
-The temperature counts we have in our dataset for June are 1700, as opposed to 1517 for December. The mean temperature in June is about 74.9 degrees (with a standard deviation of around 3.26), whereas it is 71 degrees in December (with a standard deviation of about 3.75). The minimum temperature in June is 64 degrees and the maximum is 85 degrees, i.e. the range of temperature in June (range = max - min) is 21 degrees. The minimum temperature in December is 56 degrees, whereas it is 83 degrees in December, i.e. the range of temperature in December (range = max - min) is 27 degrees. The median temperature in June is 75 degrees, and the interquartile range (3rd Quartile - 1st Quartile = 77 - 73) is 4 degrees. The median temperature in December is 71 degrees, and the interquartile range (3rd Quartile - 1st Quartile = 74 - 69) is 5 degrees. 
+Although the temperatures in Oahu, Hawaii in December vary more than they do in June, the temperatures in the two months do not seem to be drastically different from one another. December still might make into a good month to surf. However, to make a more accurate prediction, we can 
+analyse the precipitation patterns for the two months. Moreover, we can compare and contrast the wind speeds between the two months. 
 
-### Additional Queries that can be performed:
-We can perform additional queries to find more weather data for June and December. 
-First, we can run a query on precipitation rates in June and December, to gauge how much it rains (or snows) in Oahu. A rainy day does not make for an ideal day to go surfing, and so this analysis can prove quite useful! 
-Second, we can run a query on humidity, or wind speeds and directions, or even tidal wave levels, to gauge if the weather during June and December will be favorable for being out and about surfing and having ice cream!
+## Contact Information
+Email: st.sohatariq@gmail.com
