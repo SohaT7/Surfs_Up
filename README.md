@@ -34,10 +34,10 @@ The temperatures are then converted to a list, the list converted into a DataFra
 ## Results
 The summary statistics and plots for temperatures from June and December can be seen below:
 
-<img width="150" alt="image" src="https://github.com/SohaT7/Surfs_Up/blob/main/Images/df_june.png"> <img width="368" alt="image" src="https://github.com/SohaT7/Surfs_Up/blob/main/Images/plot_june.png">
+<img width="150" alt="image" src="https://github.com/SohaT7/Surfs_Up/blob/main/Images/df_june.png"> <img width="400" alt="image" src="https://github.com/SohaT7/Surfs_Up/blob/main/Images/plot_june.png">
 
 
-<img width="150" alt="image" src="https://github.com/SohaT7/Surfs_Up/blob/main/Images/df_dec.png"> <img width="339" alt="image" src="https://github.com/SohaT7/Surfs_Up/blob/main/Images/plot_dec.png">
+<img width="150" alt="image" src="https://github.com/SohaT7/Surfs_Up/blob/main/Images/df_dec.png"> <img width="400" alt="image" src="https://github.com/SohaT7/Surfs_Up/blob/main/Images/plot_dec.png">
 
 The summary statistics and the plotted graphs for the two months show:
  - The average tempertaure in December is 71 degrees Farenheit, which is 4 degrees lower than June's average temperature (75 degrees F).
