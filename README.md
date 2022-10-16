@@ -13,7 +13,7 @@
 ### Purpose:
 The purpose of this project is to analyze the climate data (temperatures in June and December) in Oahu, Hawaii, in order to gauge if opening up a surf shop there will make for a viable investment or not. 
 
-# About the Dataset:
+### About the Dataset:
 The dataset for this project comprises of climate data on Oahu, Hawaii, and is contained in the following SQLite database:
  - [hawaii.sqlite](https://github.com/SohaT7/Surfs_Up/blob/main/Resources/hawaii.sqlite)
 
