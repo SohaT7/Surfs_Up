@@ -34,15 +34,15 @@ The temperatures are then converted to a list, the list converted into a DataFra
 ## Results
 The summary statistics and plots for temperatures from June and December can be seen below:
 
-<img width="122" alt="image" src="https://github.com/SohaT7/Surfs_Up/blob/main/Images/df_june.png"> <img width="368" alt="image" src="https://github.com/SohaT7/Surfs_Up/blob/main/Images/plot_june.png">
+<img width="150" alt="image" src="https://github.com/SohaT7/Surfs_Up/blob/main/Images/df_june.png"> <img width="368" alt="image" src="https://github.com/SohaT7/Surfs_Up/blob/main/Images/plot_june.png">
 
 
-<img width="116" alt="image" src="https://github.com/SohaT7/Surfs_Up/blob/main/Images/df_dec.png"> <img width="339" alt="image" src="https://github.com/SohaT7/Surfs_Up/blob/main/Images/plot_dec.png">
+<img width="150" alt="image" src="https://github.com/SohaT7/Surfs_Up/blob/main/Images/df_dec.png"> <img width="339" alt="image" src="https://github.com/SohaT7/Surfs_Up/blob/main/Images/plot_dec.png">
 
 The summary statistics and the plotted graphs for the two months show:
  - The average tempertaure in December is 71 degrees Farenheit, which is 4 degrees lower than June's average temperature (75 degrees F).
  - The plot for June temperatures shows that the frequency of temperatures in June have more of a bell-shaped, normally-distributed curve. This explains the smaller standard deviation of 3.26, as compared to December's 3.7.
- - The weather in June and December can be inferred to be about the same. Decmeber has a higher variance (XXXx) but the two months' temperatures have about the same range (June's 21 degrees and December's 27) and average temperature (June's 74.9 F and December's 71 F).
+ - The weather in June and December can be inferred to be about the same. December temperatures have a higher variance than June temperatures, but the two months' temperatures have about the same range (June's 21 degrees and December's 27) and average temperature (June's 74.9 F and December's 71 F).
 
 ## Summary
 Although the temperatures in Oahu, Hawaii in December vary more than they do in June, the temperatures in the two months do not seem to be drastically different from one another. December still might make into a good month to surf. However, to make a more accurate prediction, we can 
